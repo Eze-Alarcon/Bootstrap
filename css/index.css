@@ -5,3 +5,7 @@
 		background: -webkit-gradient(linear, left top, right top, from(#1c3643), color-stop(25%, #273b47), to(#1e5372));
 		background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
 }
+#footer a {
+		color: white;
+		text-decoration: none;
+}
