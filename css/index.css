@@ -30,6 +30,13 @@ main .carousel-inner img {
 		position: relative;
 }
 
+.carousel-item {
+		-webkit-transition: opacity 0.5s ease-out, -webkit-transform 3s ease;
+		transition: opacity 0.5s ease-out, -webkit-transform 3s ease;
+		transition: transform 3s ease, opacity 0.5s ease-out;
+		transition: transform 3s ease, opacity 0.5s ease-out, -webkit-transform 3s ease;
+}
+
 #carousel .overlay {
 		position: absolute;
 		top: 0;
@@ -41,9 +48,11 @@ main .carousel-inner img {
 		z-index: 1;
 }
 
-.carousel-item {
-		-webkit-transition: opacity 0.5s ease-out, -webkit-transform 3s ease;
-		transition: opacity 0.5s ease-out, -webkit-transform 3s ease;
-		transition: transform 3s ease, opacity 0.5s ease-out;
-		transition: transform 3s ease, opacity 0.5s ease-out, -webkit-transform 3s ease;
+.btn-platzi {
+		background-color: #97c93e;
+		color: white;
+}
+.btn-platzi:hover {
+		background-color: #82ad36;
+		color: white;
 }

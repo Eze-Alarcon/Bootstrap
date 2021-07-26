@@ -6,6 +6,9 @@ main .carousel-inner img
 #carrousel
     position: relative
 
+.carousel-item
+    transition: transform 3s ease, opacity .5s ease-out
+
 #carousel .overlay
     position: absolute
     top: 0
@@ -16,5 +19,9 @@ main .carousel-inner img
     color: white
     z-index: 1
 
-.carousel-item
-    transition: transform 3s ease, opacity .5s ease-out
+.btn-platzi
+    background-color: $--platzi-color
+    color: white
+    &:hover
+        background-color: #82ad36
+        color: white
